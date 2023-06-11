@@ -21,7 +21,7 @@ namespace Badetidssystemet2
         public Badetidsperiode(string type, DayOfWeek ugeDag, DateTime startTidspunkt, DateTime slutTidspunkt)
         {
             Type = type;
-            ugeDag = ugeDag;
+            UgeDag = ugeDag;
             StartTidspunkt = startTidspunkt;
             SlutTidspunkt = slutTidspunkt;
         }
